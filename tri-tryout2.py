@@ -1,20 +1,20 @@
 def addition(number1, number2):
-    return print(str(number1) + " + " + str(number2) + " = " + str(number1 + number2))
+    return print(str(number1) + " + " + str(number2) + " = " + str(int(number1) + int(number2)))
 
 def subtraction(number1, number2):
-    return print(str(number1) + " - " + str(number2) + " = " + str(number1 - number2))
+    return print(str(number1) + " - " + str(number2) + " = " + str(int(number1) - int(number2)))
 
 def multiplication(number1, number2):
-    return print(str(number1) + " x " + str(number2) + " = " + str(number1 * number2))
+    return print(str(number1) + " x " + str(number2) + " = " + str(int(number1) * int(number2)))
 
 def division(number1, number2):
-    return print(str(number1) + " : " + str(number2) + " = " + str(number1 / number2))
+    return print(str(number1) + " : " + str(number2) + " = " + str(int(number1) / int(number2)))
 
 def increment(number):
-    return print(str(number) + " + 1 = " + str(number + 1))
+    return print(str(number) + " + 1 = " + str(int(number) + 1))
 
 def decrement(number):
-    return print(str(number) + " - 1 = " + str(number - 1))
+    return print(str(number) + " - 1 = " + str(int(number) - 1))
 
 def start():
     print("Hallo bij de rekenmachine.")
